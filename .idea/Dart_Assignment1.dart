@@ -11,6 +11,7 @@ class Media{
 //Derived class
 
 class Song extends Media{
+
   String artist="";
 
   //constructor
@@ -33,11 +34,15 @@ void main(){
 
   //instance of Media
   Media m=new Media();
+
+  //call play() method of Media
   m.play();
 
 
   //instance of Song
   Song s=new Song("Tuli");
+
+  //call play() method of Song
   s.play();
 
 
