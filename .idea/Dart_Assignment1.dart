@@ -40,7 +40,7 @@ void main(){
 
 
   //instance of Song
-  Song s=new Song("Tuli");
+  Song s=new Song('Tuli');
 
   //call play() method of Song
   s.play();
